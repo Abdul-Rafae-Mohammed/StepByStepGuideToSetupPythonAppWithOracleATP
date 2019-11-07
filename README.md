@@ -3,7 +3,7 @@
 November 06, 2019
 </td>
 <td class="td-banner">
-Step-by-Step guide to setup Python Application with Oracle ATP database.
+#**Step-by-Step guide to setup Python Application with Oracle ATP database.**
 </td></tr><table>
 
 
