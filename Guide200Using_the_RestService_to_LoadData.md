@@ -1,6 +1,6 @@
-<table class="tbl-heading"><tr><td class="td-logo">
+<table class="tbl-heading"><tr><td class="td-logo">[![](images/obe_tag.png)](README.md)
 
-Nov 6, 2019
+Last Updated:<br>November 06, 2019
 </td>
 <td class="td-banner">
 # Guide 2 : Using the REST Service on Oracle ATP to load data from Python Application to Oracle ATP

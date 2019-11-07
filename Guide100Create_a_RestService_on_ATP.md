@@ -1,6 +1,6 @@
-<table class="tbl-heading"><tr><td class="td-logo">
+<table class="tbl-heading"><tr><td class="td-logo">[![](images/obe_tag.png)](README.md)
 
-November 06, 2019
+Last Updated:<br>November 06, 2019
 </td>
 <td class="td-banner">
 # Guide 1: Creating a REST Service on Oracle ATP Database using APEX

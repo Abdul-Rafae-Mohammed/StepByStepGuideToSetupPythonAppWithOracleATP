@@ -1,6 +1,6 @@
-<table class="tbl-heading"><tr><td class="td-logo">README.md
+<table class="tbl-heading"><tr><td class="td-logo">[![](images/obe_tag.png)](README.md)
 
-<br>November 06, 2019
+Last Updated:<br>November 06, 2019
 </td>
 <td class="td-banner">
 # Step-by-Step guide to setup Python Application with Oracle ATP database.
