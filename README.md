@@ -12,6 +12,7 @@ This workshop/Step-by-Step guide walks you through all the steps to get started 
 ## Goals for this workshop
 
 - Build a REST Service using APEX
+- Setup the ATP database (optional)
 - Integrate Python App and Oracle Database using REST Service
 - demonstrate native JSON support in Oracle Database.
 
