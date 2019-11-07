@@ -1,6 +1,6 @@
 <table class="tbl-heading"><tr><td class="td-logo">README.md
 
-November 06, 2019
+<br>November 06, 2019
 </td>
 <td class="td-banner">
 # Step-by-Step guide to setup Python Application with Oracle ATP database.
