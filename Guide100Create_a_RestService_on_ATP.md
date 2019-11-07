@@ -3,14 +3,14 @@
 November 06, 2019
 </td>
 <td class="td-banner">
-# Lab 3: Creating a REST Service on Oracle ATP Database using APEX
+# Guide 1: Creating a REST Service on Oracle ATP Database using APEX
 </td></tr><table>
 
 ## Introduction
 
 Application Express (APEX) is a great tool to build Applications, REST API's on Oracle Database. It enables us to creates REST services which can be a single point of access for Developers. The DBA's can provide access to users like developers without even having to share the connection details adding more security to the database.
 
-In this lab, you are going to create a REST service which you will use in the next lab, to send data from a Python Application into Oracle Database.
+In this guide , you are going to create a REST service which you will use in the next guide , to send data from a Python Application into Oracle Database.
 
 
 To **log issues**, click [here](https://github.com/Abdul-Rafae-Mohammed/StepByStepGuideToSetupPythonAppWithOracleATP/issues/new) to go to the github oracle repository issue submission form.
@@ -245,10 +245,10 @@ To **log issues**, click [here](https://github.com/Abdul-Rafae-Mohammed/StepBySt
     END;
       ```
 
-- You are going to use this REST endpoint in the Python Application in the next lab.
+- You are going to use this REST endpoint in the Python Application in the next guide .
 
 
--   You are now ready to move to the next lab.
+-   You are now ready to move to the next guide .
 
 <table>
 <tr><td class="td-logo">[![](images/obe_tag.png)](#)</td>

@@ -3,14 +3,14 @@
 November 06, 2019
 </td>
 <td class="td-banner">
-# Lab 5: Working with JSON datatype in Oracle Autonomous Database
+# Guide 3: Working with JSON datatype in Oracle Autonomous Database
 </td></tr><table>
 
 ## Introduction
 
 Oracle database 18c and above natively supports JSON datatype, which means that users can directly work with JSON data like any other primary datatypes in Oracle database.
 
-Oracle provides native PL/SQL utilities to read and write data from or to a JSON object, so users dont have to worry about parsing and extracting the data from the JSOn objects before they can actually use it. they can write simple select statements to extract data and generate results for their reporting purposes or any other workloads.
+Oracle provides native PL/SQL utilities to read and write data from or to a JSON object, so users dont have to worry about parsing and extracting the data from the JSON objects before they can actually use it. they can write simple select statements to extract data and generate results for their reporting purposes or any other workloads.
 
 To **log issues**, click [here](https://github.com/Abdul-Rafae-Mohammed/StepByStepGuideToSetupPythonAppWithOracleATP/issues/new) to go to the github oracle repository issue submission form.
 
@@ -24,13 +24,13 @@ To **log issues**, click [here](https://github.com/Abdul-Rafae-Mohammed/StepBySt
 
 - SQL Developer or any SQL Client client to execute scripts.
 
-- Execute labs 100-400 before you execute this lab.
+- Execute guide 1 and 2 before you execute this guide.
 
 ## Steps
 
 ### **Preview and Analyze the JSON Data**
 
-- Connect to the database using any SQL Client. In this lab, we are using SQL developer.
+- Connect to the database using any SQL Client. In this guide , we are using SQL developer.
 
 ---########################################################################################################
 --For this exercise, we have collected tweets based on the keyword 'IPL'.  

@@ -3,7 +3,7 @@
 November 06, 2019
 </td>
 <td class="td-banner">
-# Step-by-Step guide to integrate Python Application with Oracle ATP database using APEX.
+# Step-by-Step guide to setup Python Application with Oracle ATP database.
 </td></tr><table>
 
 
@@ -62,7 +62,7 @@ Oracle REST Data Services is a Java Enterprise Edition (Java EE) based data serv
 
 - Learn how to work with JSON data type in ATP.
 
-**[Click here to run Guide 3](Guide300WorkingwithJSONDataTypeinATP.md)**
+**[Click here to run Lab 3](Guide300WorkingwithJSONDataTypeinATP.md)**
 
 
 ## Appendix
