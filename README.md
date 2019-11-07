@@ -1,18 +1,16 @@
-<table class="tbl-heading"><tr><td class="td-logo">[![](images/obe_tag1.png)](README.md)
+<table class="tbl-heading"><tr><td class="td-logo">README.md
 
-Last Updated:<br>November 08, 2018
+November 06, 2019
 </td>
 <td class="td-banner">
-# Zero to APEX in 60
+# Step-by-Step guide to setup Python Application with Oracle ATP database.
 </td></tr><table>
 
 
-This workshop walks you through all the steps to get started using the **Oracle REST Data Services and Application Express with Oracle Database**. Provision a database, Install ORDS and APEX, Build a REST Service using APEX, Integrate Python App and Oracle Database using REST Service, demonstrate native JSON support in Oracle Database.
+This workshop/Step-by-Step guide walks you through all the steps to get started using the **Oracle REST Data Services and Application Express with Oracle Autonomous Database**, Build a REST Service using APEX, Integrate Python App and Oracle ATP Database using REST Service, demonstrate native JSON support in Oracle Database.
 
 ## Goals for this workshop
 
-- Provision a database
-- Install ORDS and APEX
 - Build a REST Service using APEX
 - Integrate Python App and Oracle Database using REST Service
 - demonstrate native JSON support in Oracle Database.

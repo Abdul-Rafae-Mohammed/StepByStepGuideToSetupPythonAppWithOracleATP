@@ -1,4 +1,4 @@
-<table class="tbl-heading"><tr><td class="td-logo">![](images/obe_tag1.png)
+<table class="tbl-heading"><tr><td class="td-logo">
 
 November 06, 2019
 </td>
