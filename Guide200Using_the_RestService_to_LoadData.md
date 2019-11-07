@@ -30,6 +30,8 @@ To **log issues**, click [here](https://github.com/Abdul-Rafae-Mohammed/StepBySt
 - Please ensure you completed the guide 1 before you start this guide . Refer <a href="./Guide100Create_a_RestService_on_ATP.md" target="_blank">Guide1.md</a>
 - You have installed Oracle SQL Developer. You can download SQL Developer 18.3 [here](https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html) and follow the instructions to complete the installation.
 
+- For getting the twitter authentication details, you need to have a twitter account and create an app on twitter from which the python application can retrieve tweets. To setup your twitter account please follow the steps on this <a href="https://docs.inboundnow.com/guide/create-twitter-application/" target="_blank">link</a>.
+
 ## Steps
 
 ### **STEP 1: Download the Python Application**
@@ -42,7 +44,41 @@ You will see:
 
  ![](./images/400/Picture400-1.png)
 
-### **STEP 2: Setting up the configuration file for the Python App**
+###**STEP 2: Setup the database for the Python Application(Optional)**
+
+- This step is optional.
+- This step is only required if you do not have the database setup already.
+- Follow the below steps to setup the database.
+
+    **Creating Users and Tables for the users in DBCS**
+
+    Now, connect to the provisioned ATP instance using SQL Developer or SQL Client. We will now create a user and create a table to load JSON data into it by connecting to ATP as ADMIN user.
+
+    - Right click DB connection on the connections panel in SQl Developer.
+
+        ![](./images/200/Picture209.png)
+
+    - Click on new **Open SQl Worksheet** option. A new worksheet will be opened.
+
+    - Execute the below SQL commands to create user and table in that schema.
+
+        ```
+        create user <SchameName> identified by WElCome12_34#;
+        alter user <SchameName> quota unlimited on data;
+        grant connect, resource to <SchemaName>;
+        ```
+
+        ```
+        CREATE TABLE <schema>.JsonTweets (ts TIMESTAMP,TWEETJSON CLOB CONSTRAINT check_json CHECK (TWEETJSON IS JSON));
+        ```
+
+        ```
+        ALTER TABLE <schema>.jsontweets ADD CONSTRAINT check_nn CHECK (TWEETJSON IS not null);
+        ```
+
+    - Now, you have setup the schema and the tables.
+
+### **STEP 3: Setting up the configuration file for the Python App**
 
 - The Python Application you installed is going to download the tweets from twitter based on the keyword you provide and store them in JSON format in the Oracle Database you created in Guide 1.
 
@@ -74,7 +110,13 @@ You will see:
 
  Note that for getting the twitter authentication details, you need to have a twitter account and create an app on twitter from which the python application can retrieve tweets. To setup your twitter account please follow the steps on this <a href="https://docs.inboundnow.com/guide/create-twitter-application/" target="_blank">link</a>.
 
-### **STEP 3: Running the Python App**
+### **STEP 4: Running the Python App**
+
+- We need to now install the required python libraries to run the application. On the terminal window or the command prompt execute the following command.
+
+    ```
+    pip install requests cx_Oracle tweepy simplejson argparse json 
+    ```
 
 - Make sure you are in the folder with the Python App.
 

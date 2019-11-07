@@ -23,6 +23,8 @@ To **log issues**, click [here](https://github.com/Abdul-Rafae-Mohammed/StepBySt
 
 - A pre-provisioned Oracle ATP database instance.
 
+Learn more about provisioning and using Oracle ATP by visiting [ATP Documentation](https://docs.oracle.com/en/cloud/paas/atp-cloud/atpug/getting-started.html#GUID-F370F478-2B17-48EA-A7C0-BCE0C1E3C72F) website
+
 
 ## Steps
 
