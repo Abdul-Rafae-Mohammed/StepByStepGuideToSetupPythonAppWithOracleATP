@@ -34,7 +34,7 @@ To **log issues**, click [here](https://github.com/Abdul-Rafae-Mohammed/StepBySt
 
 ### **STEP 1: Download the Python Application**
 
-- For this guide , you will need an application which we can integrate with the REST Service. For the purpose of this guide  you can download the application avaiguide le in the following repository.  Click <a href="https://github.com/Abdul-Rafae-Mohammed/TweetStreamingusingPythonintoOracleDBusingORDS.git" target="_blank">here</a> to download a zipfile of the Python Application. Unzip it to a directory on your machine.
+- For this guide , you will need an application which we can integrate with the REST Service. For the purpose of this guide  you can download the application available in the following repository.  Click <a href="https://github.com/Abdul-Rafae-Mohammed/TweetStreamingusingPythonintoOracleDBusingORDS.git" target="_blank">here</a> to download a zipfile of the Python Application. Unzip it to a directory on your machine.
 
 You will see:
 - Python Application: **Real_Time_TweetStreaming_using_Rest_Service.py**

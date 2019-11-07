@@ -3,7 +3,7 @@
 November 06, 2019
 </td>
 <td class="td-banner">
-# Step-by-Step guide to setup Python Application with Oracle ATP database.
+Step-by-Step guide to setup Python Application with Oracle ATP database.
 </td></tr><table>
 
 
@@ -16,9 +16,9 @@ This workshop/Step-by-Step guide walks you through all the steps to get started 
 - demonstrate native JSON support in Oracle Database.
 
 # How to Get Your Free Cloud Trial Account
-Please click on the following link to create your <a class=“trial-link” href="https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType=:ex:tb:::RC_NAMK181011P00041:ATPHOL&SC=:ex:tb:::RC_NAMK181011P00041:ATPHOL&pcode=NAMK181011P00041" target="_trial">Free Account</a>, and complete all the required steps to get your free Oracle Cloud Trial Account. When you complete the registration process you'll receive a $300 credit that will enable you to complete the lab for free.  Additionally, you'll have 1000s of hours left over to continue to explore the Oracle Cloud.
+Please click on the following link to create your <a class=“trial-link” href="https://myservices.us.oraclecloud.com/mycloud/signup?language=en&sourceType=:ex:tb:::RC_NAMK181011P00041:ATPHOL&SC=:ex:tb:::RC_NAMK181011P00041:ATPHOL&pcode=NAMK181011P00041" target="_trial">Free Account</a>, and complete all the required steps to get your free Oracle Cloud Trial Account. When you complete the registration process you'll receive a $300 credit that will enable you to complete the guide  for free.  Additionally, you'll have 1000s of hours left over to continue to explore the Oracle Cloud.
 
-  - Soon after requesting your trial you will receive the following email. You may begin working on Lab 100.
+  - Soon after requesting your trial you will receive the following email. You may begin working on guide  100.
 
   ![](images/readme/code_9.png)
 
@@ -38,7 +38,7 @@ Oracle REST Data Services is a Java Enterprise Edition (Java EE) based data serv
 **You are all set, let's begin!**
 
 
-## Lab 1: Creating a rest service on ATP.
+## Guide 1: Creating a rest service on ATP.
 
 **Key Objectives**:
 
@@ -56,13 +56,13 @@ Oracle REST Data Services is a Java Enterprise Edition (Java EE) based data serv
 **[Click here to run Guide 2](Guide200Using_the_RestService_to_LoadData.md)**
 
 
-## Lab 3: Working with JSON datatype in ATP.
+## Guide 3: Working with JSON datatype in ATP.
 
 **Key Objectives**:
 
 - Learn how to work with JSON data type in ATP.
 
-**[Click here to run Lab 3](Guide300WorkingwithJSONDataTypeinATP.md)**
+**[Click here to run Guide  3](Guide300WorkingwithJSONDataTypeinATP.md)**
 
 
 ## Appendix

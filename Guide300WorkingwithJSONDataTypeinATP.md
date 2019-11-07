@@ -112,7 +112,7 @@ select tweetjson from jsontweets order by ts desc;
 You have now successfully completed this workshop.
 
 <table>
-<tr><td class="td-logo">[![](images/obe_tag.png)](#)</td>
+<tr><td class="td-logo">[![]()](#)</td>
 <td class="td-banner">
 ## Great Work - All Done!
 </td>

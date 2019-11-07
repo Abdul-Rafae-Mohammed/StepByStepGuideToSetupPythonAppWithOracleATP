@@ -251,7 +251,7 @@ To **log issues**, click [here](https://github.com/Abdul-Rafae-Mohammed/StepBySt
 -   You are now ready to move to the next guide .
 
 <table>
-<tr><td class="td-logo">[![](images/obe_tag.png)](#)</td>
+<tr><td class="td-logo">[![]()](#)</td>
 <td class="td-banner">
 ## Great Work - All Done!
 </td>
