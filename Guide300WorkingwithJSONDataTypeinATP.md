@@ -32,19 +32,19 @@ To **log issues**, click [here](https://github.com/Abdul-Rafae-Mohammed/StepBySt
 
 - Connect to the database using any SQL Client. In this guide , we are using SQL developer.
 
-- ########################################################################################
--  For this exercise, we have collected tweets based on the keyword 'IPL'.  
--  IPL is a cricket tournament which is conducted every year in India, 
--  where players from various countries participate and play for their franchises.
-- #########################################################################################
+- ##################################################################################
+ -  For this exercise, we have collected tweets based on the keyword 'IPL'.  
+ -  IPL is a cricket tournament which is conducted every year in India, 
+ -  where players from various countries participate and play for their franchises.
+- ##################################################################################
 
-- #########################################################################################
--  IPL conducted an auction of players recently. 
--  We have collected tweets regarding the auction and will now derive some insights about the IPL and the auction conducted.
-- #########################################################################################
+- ##################################################################################
+ -  IPL conducted an auction of players recently. 
+ -  We have collected tweets regarding the auction and will now derive some insights about the IPL and the auction conducted.
+- ##################################################################################
 
 - ##############################################
--  Lets have a peek at the Twitter Data we have!!
+ -  Lets have a peek at the Twitter Data we have!!
 - ##############################################
 
 ```
@@ -60,7 +60,7 @@ select * from jsontweets order by ts;
 ```
 
 - ##############################################
--  The tweets are currently in JSON Format.
+ -  The tweets are currently in JSON Format.
 - ##############################################
 
 ```
@@ -68,15 +68,15 @@ select tweetjson from jsontweets order by ts desc;
 ```
 
 - ##############################################
--  Now...we will
+ -  Now...we will
 - ##############################################
  
 - ##################################################################################
--  Now, we are going to perform some basic data analysis on tweets ....
+ -  Now, we are going to perform some basic data analysis on tweets ....
 
--  The first query gets the details about all the tweets collected and gives a deep dive view about the tweet data.
+ -  The first query gets the details about all the tweets collected and gives a deep dive view about the tweet data.
 
--  The second query retrieves details about the users who tweeted about IPL and gives us more details about tweeters.
+ -  The second query retrieves details about the users who tweeted about IPL and gives us more details about tweeters.
 - ##################################################################################
 
 
